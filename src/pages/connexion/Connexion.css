@@ -1,0 +1,12 @@
+.connexion{
+    padding-top: 5rem;
+}
+
+.connexion h2{
+    font-weight: bolder;
+}
+
+.connexion img{
+    height: 12rem;
+    width: auto;
+}

@@ -1,0 +1,79 @@
+
+.card-livre{
+    transition: all 0.5s ease;
+    background:#fff;
+}
+.card-livre:hover{
+    cursor: pointer;
+    transform:scale(1.1)
+}
+
+.nav-link{
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:#242323;
+    text-decoration: none;
+}
+.nav-link:focus{
+    color:#242323;
+    text-decoration: none;
+}
+.nav-link:active{
+    color:#242323;
+    text-decoration: none;
+}
+
+/* details-livre */
+.details-livre .header-details-livre h1{
+    font-size:30px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    
+}
+.details-livre .header-details-livre p{
+    font-size:20px;
+    font-weight: 500;
+    color: #252222;
+    
+}
+
+.details-livre .description-livre h2,.details-livre .description-auteur h2{
+    font-size:20px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    
+}
+
+.details-livre .btn-container button{
+    font-size:20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 18px 25px;
+}
+
+/* gestion-livres */
+.gestion-livres {
+    padding-bottom: 100px;
+    
+}
+.gestion-livres .header-gestion-livre{
+    padding: 2rem 0px;    
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.973), #afafc8a8), url("./assets/images/livres/c.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.gestion-livres h2{
+    font-size:45px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    
+}

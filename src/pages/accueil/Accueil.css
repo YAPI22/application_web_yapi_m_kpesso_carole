@@ -1,0 +1,14 @@
+.accueil{
+    background: #f9f5f5;
+}
+
+.recherche-container{
+    background: #c0960d;
+    color: #fff;
+}
+
+.liste-livre-container h1{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
